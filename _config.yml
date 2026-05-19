@@ -31,6 +31,7 @@ github_username:  zakfly941
 
 # Build settings
 theme: minima
+skin: dark
 # remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-feed
@@ -55,6 +56,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-minima:
-  skin: dark
