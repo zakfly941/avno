@@ -3,7 +3,7 @@
 
 ---
 $brand-color: rgb(144,148,152);
-$background-color: rgba(0,8,16,0.83);
+$background-color: rgba(0,8,16,0.84);
 $text-color: rgba(255,255,255,0.73);
 @import "minima";
 
@@ -45,6 +45,15 @@ $text-color: rgba(255,255,255,0.73);
 	.highlight {
 	background: rgb(30,34,41);
 	border: none;
+	}
+	
+	.site-header {
+	border-bottom: 1px solid rgba(255,255,255,0.44);
+	}
+	
+	.site-footer {
+	box-shadow: 0px -20px 144px rgba(0,10,26,0.31);
+	border-top: 1px solid rgba(255,255,255,0.28);
 	}
 	
 	a:link, a:visited {
