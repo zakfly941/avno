@@ -1,12 +1,11 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+
 ---
-
+$brand-color: rgb(144,148,152);
+$background-color: rgba(0,8,16,0.83);
+$text-color: rgba(255,255,255,0.73);
 @import "minima";
-
-body {
-	background: rgba(0,8,16,0.83);
-}
 
 	p, h1, h2, h3, ul, ul li {
 	color: rgba(255,255,255,0.89);
@@ -35,5 +34,35 @@ body {
 	
 	pre,
 	code {
-	  background-color: rgba(255,255,255,0.29);
+	  background-color: rgba(255,255,255,0.09);
+	  border: 1px solid rgba(255,255,255,0.19);
+	}
+	
+	figure {
+	  background: none;
+	}
+	
+	.highlight {
+	background: rgb(30,34,41);
+	border: none;
+	}
+	
+	a:link, a:visited {
+	color: $text-color;
+	}
+	
+	a:hover {
+	color: $text-color;
+	}
+	
+	a:active {
+	color: $text-color;
+	}
+	
+	hr {
+	opacity: 0.44;
+	}
+	
+	.page-content {
+	border: none;
 	}
