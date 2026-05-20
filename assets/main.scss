@@ -3,7 +3,7 @@
 
 ---
 $brand-color: rgb(144,148,152);
-$background-color: rgba(0,8,16,0.89);
+$background-color: rgb(14,36,52);
 $text-color: rgba(255,255,255,0.73);
 $grey-color-light: rgba(255,255,255,0.43);
 @import "minima";
@@ -54,10 +54,9 @@ border-bottom: 1px solid rgba(255,255,255,0.14);
 }
 
 .site-footer {
-background: black;
-opacity: 0.44;
-box-shadow: 0px -20px 144px rgba(0,8,20,0.91);
-border-top: 1px solid rgba(255,255,255,0.18);
+background: rgba(7,21,30,0.66);
+box-shadow: 0px -8px 12px rgba(0,12,28,0.11);
+border-top: 1px solid rgba(255,255,255,0.04);
 }
 
 a:link, a:visited {

@@ -1,0 +1,1 @@
+var gamefiles = ['English.tra', 'MYGAME.ags', 'acsetup.cfg'];
