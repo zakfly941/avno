@@ -5,28 +5,7 @@ layout: default
 <div class="home">
 
 {{ page.title | upcase | prepend: "You're visiting: " }}<p></p>
-<div class="related-snippet">
-  <h4>Sort by Categories:</h4>
-  {{ "jekyll" | upcase }}
-  <p style="line=height:0.6em;">
-      {% for post in site.posts %}
-      {% if post.categories contains 'jekyll' %}
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}<br/>
-      {% endif %}
-      {% endfor %}
-  </p>
-   {{ "News" | upcase }}
-  <p style="line=height:0.6em;">
-      {% for post in site.posts %}
-      {% if post.categories contains 'News' %}
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}<br/>
-      {% endif %}
-      {% endfor %}
-  </p> 
 
-</div>
 
 <!--{%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
