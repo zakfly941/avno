@@ -12,6 +12,13 @@ p, h1, h2, h3, ul, ul li {
 color: rgba(255,255,255,0.89);
 }
 
+.related-snippet {
+display:block;
+position:absolute;
+right:3.6em;
+border:none;
+}
+
 .site-title:link, .site-title:visited {
 color:#FFF;
 text-decoration:none;
@@ -83,4 +90,11 @@ border: grey;
     }
 }
 
-
+@media screen and (max-width: 1144px) {
+	.related-snippet {
+	position:absolute;
+	top:12%;
+	right:1.6em;
+	border:1px solid red;
+	}
+}
