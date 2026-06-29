@@ -4,11 +4,11 @@ title:  "Know more..."
 date:   2026-05-20 09:23:00 +0200
 categories: Development
 ---
-`HAVNO` has been developped using Chris Jones [Adventure Game Studio] editor. `AGS` allows to create Sierra and LucasArts-style graphical adventure games. It is based on a `ROOM` system, each room being connected to an another and storing Walkable areas, Objects and various interactions. `AGS` is a simple way to create and compile your own adventure game.
+`AVNO` has been developped using Chris Jones [Adventure Game Studio] editor. `AGS` allows to create Sierra and LucasArts-style graphical adventure games. It is based on a `ROOM` system, each room being connected to an another and storing Walkable areas, Objects and various interactions. `AGS` is a simple way to create and compile your own adventure game.
 <br/><br/>
 [>> TRY IT]({{site.baseurl | prepend: site.url}}{% link /game/index.html %}){:target="_blank"}<br/><br/>
-<img src="{{site.baseurl | prepend: site.url}}/assets/img/havno-victorian.png" alt="Havno release soon" /><!-- USE FOR PRODUCTION -->
-<!-- <img src="/assets/img/havno-victorian.png" alt="Havno release soon" /> --><!--  USE FOR TESTING -->
+<img src="{{site.baseurl | prepend: site.url}}/assets/img/avno-victorian.png" alt="Avno release soon" /><!-- USE FOR PRODUCTION -->
+<!-- <img src="/assets/img/avno-victorian.png" alt="avno release soon" /> --><!--  USE FOR TESTING -->
 
 <br/><br/>
 {% highlight ruby %}

@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Havo Chapter #1 - Overview"
+title:  "Avno Chapter #1 - Overview"
 date:   2026-05-19 15:18:56 +0200
 categories: Development
-excerpt: Havno is a pixel art adventure game based inspired by Daniel Defoe's Robinson Crusoe...
+excerpt: Avno is a pixel art adventure game based inspired by Daniel Defoe's Robinson Crusoe...
 ---
-<img src="/assets/img/havno-welcome-screen.png" alt="Havno Welcome img" /><!--  USE FOR TESTING -->
+<img src="/assets/img/avno-welcome-screen.png" alt="Avno Welcome img" /><!--  USE FOR TESTING -->
 <br/>
 <br/>
-`HAVNO` is a pixel art adventure game based inspired by `DANIEL DEFOE`'s Robinson Crusoe, first published in 1719.
+`AVNO` is a pixel art adventure game based inspired by `DANIEL DEFOE`'s Robinson Crusoe, first published in 1719.
 The game is splitted into several chapter, depending on development progress.
 You can now enjoy the Full Chapter #1, <i>Back to the Shore</i>. If you finish all the enigmas,a teaser image of Chapter #1, <i>The Mist, will congratulate all your efforts.
 

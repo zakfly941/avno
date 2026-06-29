@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: HAVNO - The Adventure Game
+title: AVNO - The Adventure Game
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 # UNCOMMENT THESE URLs FOR PRODUCTION
-# url: 'https://zakfly941.github.io/' # your main domain
-# baseurl: 'havno' # if you're using custom domain keep this blank example: baseurl: ''
+url: 'https://zakfly941.github.io/' # your main domain
+baseurl: 'Avno' # if you're using custom domain keep this blank example: baseurl: ''
 dribbble_username: ooz
 github_username:  zakfly941
 

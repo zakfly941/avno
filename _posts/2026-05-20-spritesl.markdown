@@ -8,7 +8,7 @@ categories: News
 </p><br/>
 [TRY IT]({{site.baseurl | prepend: site.url}}{% link /game/index.html %}){:target="_blank"}<br/><br/>
 <!-- <img src="{{site.baseurl | prepend: site.url}}/assets/img/havno-victorian.png" alt="Havno release soon" /><!-- USE FOR PRODUCTION -->
-<img src="/assets/img/havno_character.png" alt="Havno release soon" /><!--  USE FOR TESTING -->
+<img src="/assets/img/havno_character.png" alt="Avno release soon" /><!--  USE FOR TESTING -->
 
 <br/><br/>
 
