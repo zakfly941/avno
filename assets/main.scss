@@ -20,10 +20,31 @@ font-variation-settings:
 "YTLC" 500;
 }
 
+
+h1 {
+font-weight:400;
+}
+
+a.post-descr, a.post-descr:link, a.post-descr:visited {
+font-size:1.1em;
+text-decoration:none;
+opacity:0.88;
+}
+
+
+
+a.post-descr:hover {
+text-decoration:underline;
+color:#6F8299;
+}
+
 p, blockquote, pre,
 ul, ol, dl, figure {
 font-weight:600;
 }
+
+
+
 .page-content {
 	border-top: 1px solid rgba(255,255,255,0.22);
 }
@@ -111,8 +132,17 @@ cursor: pointer;
 
 pre,
 code {
-background-color: rgba(255,255,255,0.09);
-border: 1px solid rgba(255,255,255,0.19);
+background:none;
+border: 1px solid rgba(0,12,28,0.61);
+background-color: rgba(0, 8, 26, 1.1);
+}
+
+.code {
+background:none;
+}
+
+.highlight .nf {
+color:rgba(magenta,0.66);
 }
 
 figure {

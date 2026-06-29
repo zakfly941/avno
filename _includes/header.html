@@ -35,10 +35,10 @@
         <h4>Sort by Categories:</h4>
       </div>
       <div class="related-snippet_contents">
-      {{ "jekyll" | upcase }}
+      {{ "Development" | upcase }}
       <p>
           {% for post in site.posts %}
-          {% if post.categories contains 'jekyll' %}
+          {% if post.categories contains 'Development' %}
               <a href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}</a><br/>
           {% endif %}
