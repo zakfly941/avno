@@ -1,1 +1,1 @@
-*.ags filter=lfs diff -merge -text
+/game/MYGAME.ags filter=lfs diff -merge -text
