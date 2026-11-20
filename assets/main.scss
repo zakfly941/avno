@@ -26,24 +26,35 @@ font-weight:400;
 }
 
 a.post-descr, a.post-descr:link, a.post-descr:visited {
-font-size:1.1em;
 text-decoration:none;
 opacity:0.88;
 }
-
-
 
 a.post-descr:hover {
 text-decoration:underline;
 color:#6F8299;
 }
 
+.post-list-heading {
+	font-weight: 400;
+	opacity: 0.54;
+	font-style: italic;
+}
+
 p, blockquote, pre,
 ul, ol, dl, figure {
 font-weight:600;
+line-height: 1.78em;
 }
 
-
+.site-logo {
+	display: inline-block;
+	width: 261px;
+	height: 50px;
+	background-image: url("img/avno-website-logo.svg");
+	background-repeat: no-repeat;
+	margin-left: -10px;
+}
 
 .page-content {
 	border-top: 1px solid rgba(255,255,255,0.22);

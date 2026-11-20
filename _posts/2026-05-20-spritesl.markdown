@@ -1,15 +1,27 @@
 ---
 layout: post
-title:  "Sprites!!"
+title: "When it all Started"
 date:   2026-05-20 09:23:00 +0200
 categories: News
+excerpt: 
 ---
-<p>Avno is an AGS Studio based adventure-game. It's playable online thanks to JavaScript Compiling options.
-</p><br/>
+<img src="/assets/img/walking-animation-example.png" /><!--  USE FOR TESTING -->
+<!-- <img src="{{site.baseurl | prepend: site.url}}/assets/img/walking-animation-example.png" /><!-- USE FOR PRODUCTION -->
+The game is an `Artistic` and personal project made with my 10 year old son. We started to create this adventure game back when my son was playing [The Secret of Monkey Island].
+
+
+
+As nostalgia grew from that period when I was myself a kid, I tried to create with some pixel art assets, coding the first lines, and eventually release the Chapter 1 of Avno. Since creating a game is long and fastidious process, I decided to split the development in chapters.
+<br/><br/>
 [TRY IT]({{site.baseurl | prepend: site.url}}{% link /game/index.html %}){:target="_blank"}<br/><br/>
-<!-- <img src="{{site.baseurl | prepend: site.url}}/assets/img/havno-victorian.png" alt="Havno release soon" /><!-- USE FOR PRODUCTION -->
-<img src="/assets/img/avno_character.png" alt="Avno release soon" /><!--  USE FOR TESTING -->
+
+
+
 
 <br/><br/>
+Open your browser and access the server with this address:
+{% highlight ruby %}
+http://localhost:8000
+{% endhighlight %}
 
-Text here.
+[The Secret of Monkey Island]: https://en.wikipedia.org/wiki/The_Secret_of_Monkey_Island

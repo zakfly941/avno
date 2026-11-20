@@ -1,1 +1,1 @@
-var gamefiles = ['English.tra', 'MYGAME.ags', 'acsetup.cfg'];
+var gamefiles = ['English.tra', 'French.tra', 'MYGAME.ags', 'acsetup.cfg'];

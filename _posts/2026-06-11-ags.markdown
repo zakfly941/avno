@@ -1,18 +1,32 @@
 ---
 layout: post
-title:  "Know more..."
+title:  "AGS Studio and Javascript"
 date:   2026-05-20 09:23:00 +0200
 categories: Development
+excerpt:
 ---
-`AVNO` has been developped using Chris Jones [Adventure Game Studio] editor. `AGS` allows to create Sierra and LucasArts-style graphical adventure games. It is based on a `ROOM` system, each room being connected to an another and storing Walkable areas, Objects and various interactions. `AGS` is a simple way to create and compile your own adventure game.
+<img src="{{site.baseurl | prepend: site.url}}/assets/img/javscript-ags.png" />
+<!-- USE FOR PRODUCTION --><!-- <img src="/assets/img/javscript-ags.png" /> -->
+`AVNO` has been developped using Chris Jones [Adventure Game Studio] editor. `AGS` allows to create Sierra and LucasArts-style graphical adventure games. It is based on a `ROOM` system, each room being connected to an another and contains Walkable areas, Objects and interactions you choose to code. `AGS` is a simple way to create and compile your own adventure game.
 <br/><br/>
-[>> TRY IT]({{site.baseurl | prepend: site.url}}{% link /game/index.html %}){:target="_blank"}<br/><br/>
-<img src="{{site.baseurl | prepend: site.url}}/assets/img/avno-victorian.png" alt="Avno release soon" /><!-- USE FOR PRODUCTION -->
-<!-- <img src="/assets/img/avno-victorian.png" alt="avno release soon" /> --><!--  USE FOR TESTING -->
+[>> ACCESS THE GAME (on a new tab)]({{site.baseurl | prepend: site.url}}{% link /game/index.html %}){:target="_blank"}<br/><br/>
 
-<br/><br/>
+
+`AVNO` is free to play. As `AGS Studio` offers Javascript compilation, every AGS project can be released online or locally using Python webserver. For running your `AGS` game as a Javascript build locally, install [Python 3].
+
+Here is an example of how to run an instance of the game locally using [Python 3] HTTP webserver:
+<ul>
+<li>First, copy the assets to a chosen directory (i.e. MYPATH\MYGAME).</li>
+<li>Install Python.</li>
+<li>Run Windows Powershell or Cmd, or Terminal on Linux/BSD systems.</li>
+</ul>
+Then, enter the following:
 {% highlight ruby %}
-test
+cmd
+ python3 -m http.server
+#=> Or in Python 2.x
+ python -m http.server
 {% endhighlight %}
 
-[Adventure Game Studio]: https://www.python.org/downloads/
+[Adventure Game Studio]: https://www.adventuregamestudio.co.uk/
+[Python 3]: https://www.python.org/downloads/
