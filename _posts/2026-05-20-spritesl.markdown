@@ -13,7 +13,7 @@ The game is an `Artistic` and personal project made with my 10 year old son. We 
 
 As nostalgia grew from that period when I was myself a kid, I tried to create with some pixel art assets, coding the first lines, and eventually release the Chapter 1 of Avno. Since creating a game is long and fastidious process, I decided to split the development in chapters.
 <br/><br/>
-[TRY IT]({{site.baseurl | prepend: site.url}}{% link /game/index.html %}){:target="_blank"}<br/><br/>
+<!--[TRY IT]({{site.baseurl | prepend: site.url}}{% link /game/index.html %}){:target="_blank"}--><br/><br/>
 
 
 
