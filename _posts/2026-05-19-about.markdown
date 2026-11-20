@@ -9,7 +9,7 @@ excerpt:
 <br/><br/>
 `AVNO` is a pixel art adventure game based inspired by `DANIEL DEFOE`'s Robinson Crusoe, first published in 1719.
 The game is splitted into several chapter, depending on development timeline.<br/>
-You can play the first chapter on your browser.
+You can play the first chapter on your browser!
 
 
 
